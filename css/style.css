@@ -1,0 +1,29 @@
+header, main, footer {
+	padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+	header, main, footer {
+		padding-left: 0;
+	}
+}
+
+.container
+{
+	width: 75%;
+	margin-right: 30px;
+}
+
+.collapsible-body p {
+	font-size: 10px;
+    margin: 0;
+    padding: 1rem;
+}
+
+.side-nav .collapsible-header {
+	margin: 0px;
+}
+
+.teal {
+    background-color: #FFF !important;
+}
